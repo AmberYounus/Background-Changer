@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.3s ease;
+}
+.change-color {
+  background: #625555;
+  color: #fff;
+  border: 0;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+.color-text {
+  margin-top: 14px;
+  font-size: 24px;
+  color: #fff;
+}
+.change-color:active {
+  transform: scale(0.98);
+}
+.change-color:focus {
+  background: #444;
+  outline: none;
+}
